@@ -1,0 +1,54 @@
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+tgbotd
+tgbotd.exe
+live_sweep
+live_sweep.exe
+
+# Test binaries
+*.test
+*.out
+
+# Go workspace / build artifacts
+/vendor/
+go.work
+go.work.sum
+
+# Coverage / profiling
+*.prof
+coverage.out
+coverage.html
+
+# Runtime state — sessions, caches, SQLite (contains bot auth keys, PII)
+/data/
+*.session
+*.cache
+cache_*.db
+tgbotd.db
+tgbotd.db-*
+session.dat
+
+# Trace / log output
+tgbotd_trace.log
+*.log
+
+# Local env overrides — never commit real tokens
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ad-hoc scratch
+/tmp/
+/scratch/
