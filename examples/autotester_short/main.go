@@ -2,7 +2,7 @@ package main
 import ("fmt"; "os"; "strings"; "sync"; "sync/atomic"; "time"
 	"github.com/amarnathcjd/gogram/telegram")
 // Set TGBOTD_STRING_SESSION to a gogram StringSession for a real Telegram user
-// account (see hack/README.md). Optional TGBOTD_TARGET_BOT overrides the
+// account (see examples/README.md). Optional TGBOTD_TARGET_BOT overrides the
 // default target username.
 type rec struct { sent, seen time.Time; sentTxt, replyTxt string }
 func main() {

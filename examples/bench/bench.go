@@ -3,7 +3,7 @@
 // Runs a small suite of Bot API methods against both endpoints, N times each
 // (serial), and reports median / p95 / mean.
 //
-//	go run ./hack/bench -token=... -local=http://127.0.0.1:8081 -n=20
+//	go run ./examples/bench -token=... -local=http://127.0.0.1:8081 -n=20
 package main
 
 import (
